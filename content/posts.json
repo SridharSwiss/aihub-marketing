@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "campaign": "hub-nov26",
+    "name": "The Reference Layer: 14 days",
+    "site": "https://aihubswiss.org",
+    "factsAsOf": "2026-11-03",
+    "timezone": "CET (Zurich)"
+  },
+  "pillars": {
+    "brand": { "name": "Brand and network", "accent": "#7C83FF", "accentName": "indigo" },
+    "tools": { "name": "Tools and learning", "accent": "#2DD4BF", "accentName": "teal" },
+    "governance": { "name": "Governance and compliance", "accent": "#FBBF24", "accentName": "amber" }
+  },
+  "posts": [
+    {
+      "id": "d01", "date": "2026-11-04", "time": "12:30", "phase": "1 Establish", "pillar": "brand", "format": "carousel",
+      "title": "Launch: the reference layer",
+      "goal": "Introduce AI Hub with proof, drive saves and profile follows",
+      "hook": "Most AI information is written by someone selling you something. This isn't.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "AI HUB · THE REFERENCE LAYER", "headline": "Everything about AI, in one independent place.", "sub": "151 tools. 103 companies. 44 frameworks. Free." },
+        { "kind": "stat", "stat": "151", "label": "AI tools compared", "body": "Pricing, specs, alternatives." },
+        { "kind": "stat", "stat": "103", "label": "AI companies profiled", "body": "Funding, products, models." },
+        { "kind": "stat", "stat": "86", "label": "case studies", "body": "Real deployments with measured outcomes." },
+        { "kind": "stat", "stat": "44", "label": "governance frameworks", "body": "Across 29 jurisdictions. EU AI Act, NIST, ISO 42001 and more." },
+        { "kind": "point", "headline": "A free Academy.", "body": "Courses with a verifiable Certificate of Completion." },
+        { "kind": "point", "headline": "Independent by design.", "body": "Not affiliated with any listed company. Two named sources behind every claim." },
+        { "kind": "cta", "headline": "Save this. Then open the Hub.", "body": "aihubswiss.org", "button": "Link in bio" }
+      ],
+      "caption": "Most AI information is written by someone selling you something. This isn't.\n\nAI Hub is an independent reference for the AI landscape, hand-verified and updated daily:\n\n• 151 AI tools, compared\n• 103 companies, profiled\n• 86 case studies with measured outcomes\n• 44 governance and compliance frameworks\n• A free Academy with a verifiable certificate\n\nIndependent and vendor-neutral, not affiliated with any listed company. Start where you are: tools, regulation, or learning.\n\nSave this for the next time someone asks you \"which AI should we use?\"\n\nLink in bio.",
+      "firstComment": "Which one do you need most right now: tools, regulation or learning? Tell me and I'll point you to the right page.",
+      "hashtags": ["#AIGovernance", "#AITools", "#ResponsibleAI", "#EUAIAct"],
+      "alt": "Carousel introducing AI Hub: 151 tools, 103 companies, 86 case studies and 44 governance frameworks, free and independent.",
+      "cta": { "type": "save", "dm": "HUB", "path": "/" },
+      "story": "Poll: What do you want from an AI reference? (Tools / Regulation / Learning). Link sticker to home.",
+      "sources": ["ai-hub/src/data/site-counts.ts", "ai-hub/src/app/llms.txt/route.ts"]
+    },
+    {
+      "id": "d02", "date": "2026-11-05", "time": "18:30", "phase": "1 Establish", "pillar": "tools", "format": "textcard",
+      "title": "The 5-minute habit (text card)",
+      "goal": "Relatable, shareable identity post (sends)",
+      "hook": "You'll be the \"AI person\" at work after 5 minutes a day of this.",
+      "slides": [
+        { "kind": "text", "headline": "You'll be the \"AI person\" at work after 5 minutes a day of this:", "lines": ["Open one feed that pulls from 58 AI news sources.", "Pick one item. Check it against the tool or framework page.", "It's free. Fast. No hype.", "Honestly, it's embarrassing how easy that makes keeping up."] }
+      ],
+      "caption": "Keeping up with AI doesn't need a new job title. It needs a 5-minute habit and sources you can trust.\n\nAI Hub's news feed pulls from 58 sources across research, industry and policy. Pick one story, then check it against the tool, company or framework page it touches.\n\nSend this to the colleague who keeps asking \"did you see what happened in AI this week?\"\n\nLink in bio.",
+      "firstComment": "What's your current way of keeping up with AI news? Newsletter, feed, or group chat?",
+      "hashtags": ["#AINews", "#AILiteracy", "#AITools"],
+      "alt": "Text post: You'll be the AI person at work after 5 minutes a day: one feed, 58 sources, free.",
+      "cta": { "type": "send", "dm": "NEWS", "path": "/news" },
+      "story": "Question sticker: How do you keep up with AI today? Reshare answers (with permission).",
+      "sources": ["ai-hub/src/data/site-counts.ts (newsSources: 58)", "ai-hub/src/app/llms.txt/route.ts"]
+    },
+    {
+      "id": "d03", "date": "2026-11-06", "time": "12:30", "phase": "1 Establish", "pillar": "tools", "format": "reel",
+      "title": "Reel: stop asking which AI is best",
+      "goal": "Reach new audiences (non-followers) with a contrarian hook",
+      "hook": "\"Which AI is best?\" is the wrong question.",
+      "reel": {
+        "length": "28s",
+        "beats": [
+          { "t": "0-3s", "visual": "Black screen, white text, no logo", "onscreen": "\"Which AI is best?\" is the wrong question.", "vo": "Which AI is best? Wrong question." },
+          { "t": "3-9s", "visual": "Screen recording: /compare index, slow scroll", "onscreen": "Best at what?", "vo": "Ask: best at what? Writing, coding, long documents, research?" },
+          { "t": "9-19s", "visual": "Open one head-to-head page. Highlight pricing, models, platforms, trade-offs rows", "onscreen": "357 head-to-head comparisons", "vo": "AI Hub has 357 side-by-side comparisons: pricing, models, platforms and the trade-offs." },
+          { "t": "19-25s", "visual": "Two tool names, then a check mark", "onscreen": "Pick two. Read the trade-offs. Decide.", "vo": "Pick two tools, read the trade-offs, decide in minutes." },
+          { "t": "25-28s", "visual": "Logo + URL", "onscreen": "aihubswiss.org · free", "vo": "Free at aihubswiss.org. Link in bio." }
+        ],
+        "audio": "Original voiceover over a quiet instrumental. No TikTok watermark. Captions burned in (muted-first).",
+        "cover": "Wrong question."
+      },
+      "caption": "\"Which AI is best?\" is the wrong question. The useful one is: best at what, for whom, at what cost?\n\nAI Hub lists 357 side-by-side comparisons so you can read the trade-offs instead of the marketing.\n\nSend this to whoever on your team is still asking.\n\nLink in bio.",
+      "firstComment": "Which two tools are you trying to choose between right now? I'll tell you which comparison page to open.",
+      "hashtags": ["#AITools", "#ChatGPT", "#Claude", "#GenerativeAI"],
+      "alt": "Reel: why asking which AI is best is the wrong question, with a walkthrough of AI Hub's comparison pages.",
+      "cta": { "type": "send", "dm": "COMPARE", "path": "/compare" },
+      "story": "Quiz sticker: What's the first thing to decide when picking an AI tool? (Price / Use case / Brand) - answer: use case.",
+      "sources": ["ai-hub/src/data/site-counts.ts (comparisons: 357)"]
+    },
+    {
+      "id": "d04", "date": "2026-11-07", "time": "10:00", "phase": "1 Establish", "pillar": "governance", "format": "carousel",
+      "title": "EU AI Act in 6 swipes",
+      "goal": "Saves and authority; time-sensitive governance hook",
+      "hook": "The EU AI Act dates just moved. Here's the version that's current.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "EU AI ACT · UPDATED", "headline": "The EU AI Act in 6 swipes.", "sub": "Risk tiers, fines, and the dates that moved." },
+        { "kind": "point", "headline": "It sorts AI by risk.", "body": "Four tiers. Your obligations follow the tier your system falls in." },
+        { "kind": "list", "headline": "The four tiers", "items": ["Unacceptable: prohibited outright", "High: risk management, documentation, human oversight, conformity assessment", "Limited: transparency. Tell people it's AI", "Minimal: no specific obligations"] },
+        { "kind": "stat", "stat": "7%", "label": "of global annual turnover, or €35M", "body": "Maximum fine for prohibited AI. High-risk violations: up to €15M or 3%." },
+        { "kind": "list", "headline": "The dates, as of today", "items": ["Feb 2025: prohibitions apply", "Aug 2025: general-purpose AI model duties", "Aug 2026: Article 50 transparency duties", "Dec 2027: Annex III high-risk (deferred by the Digital Omnibus)", "Aug 2028: Annex I high-risk"] },
+        { "kind": "stat", "stat": "2 Dec", "label": "2026 · next date", "body": "Two new Article 5 prohibitions apply: NCII and CSAM generation." },
+        { "kind": "point", "headline": "Who it covers.", "body": "Anyone placing AI on the EU market or putting it into service in the EU, including non-EU companies serving EU users." },
+        { "kind": "cta", "headline": "Save this. Full guide on AI Hub.", "body": "aihubswiss.org/compliance", "button": "Link in bio" }
+      ],
+      "caption": "The EU AI Act deadlines moved, and a lot of what's still circulating is out of date.\n\nAs of today: prohibitions have applied since Feb 2025, general-purpose AI duties since Aug 2025, Article 50 transparency duties since Aug 2026. The Digital Omnibus deferred standalone high-risk (Annex III) obligations to Dec 2027. Next date on the calendar: 2 December 2026.\n\nSwipe for the risk tiers, the fines and who it covers. Save it for your next governance meeting.\n\nGeneral information, not legal advice. Check the Act and your counsel for your situation.\n\nLink in bio.",
+      "firstComment": "Comment EUAI and I'll send you the full guide with the timeline and checklist.",
+      "hashtags": ["#EUAIAct", "#AIGovernance", "#AICompliance", "#ResponsibleAI"],
+      "alt": "Carousel: the EU AI Act risk tiers, penalties up to 7% of turnover, and the updated timeline including the Digital Omnibus deferral.",
+      "cta": { "type": "save", "dm": "EUAI", "path": "/compliance/eu-ai-act" },
+      "story": "Countdown sticker to 2 Dec 2026 (new Article 5 prohibitions). Link sticker to the guide.",
+      "sources": ["ai-hub/src/data/compliance.ts (EU AI Act timeline, penalties, affectedOrgs)"],
+      "flag": "Re-check the compliance.ts timeline on the morning of posting; the site's llms.txt still says high-risk applies from Aug 2026 and is out of step."
+    },
+    {
+      "id": "d05", "date": "2026-11-08", "time": "18:00", "phase": "1 Establish", "pillar": "tools", "format": "carousel",
+      "title": "Case study: claims triage",
+      "goal": "Proof post; drive free sign-ins to read full case studies",
+      "hook": "How one insurer cut claim settlement time by 40%.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "CASE STUDY · INSURANCE", "headline": "How one insurer cut claim settlement time by 40%.", "sub": "The problem, the build, the numbers." },
+        { "kind": "point", "headline": "The problem.", "body": "6M+ property and casualty claims a year across 30+ countries. Simple and complex claims waited in the same queue. Average settlement: 17 days." },
+        { "kind": "point", "headline": "The build.", "body": "Language models to sort claims by complexity. Computer vision to assess damage from photos. Rules-based automation for the simple ones." },
+        { "kind": "stat", "stat": "40%", "label": "faster settlement", "body": "From about 17 days to about 10." },
+        { "kind": "stat", "stat": "30%", "label": "straight-through", "body": "Of claims processed with no human touch." },
+        { "kind": "point", "headline": "The pattern.", "body": "Sort by complexity first. Automate the simple. Put people on the hard cases." },
+        { "kind": "cta", "headline": "86 case studies. Measured outcomes.", "body": "Free sign-in unlocks the full write-ups.", "button": "aihubswiss.org/case-studies" }
+      ],
+      "caption": "A claim doesn't need an adjuster just because it's a claim.\n\nThis AI Hub case study follows an insurer that sorted claims by complexity, assessed damage from photos and straight-through processed the simple ones. Reported results: settlement time down about 40%, with 30% of claims handled with no human touch.\n\nFigures are as reported in the case study entry. The full write-up covers the context, tech stack and lessons.\n\nThere are 86 case studies on AI Hub, each with measured outcomes. Free sign-in unlocks them.\n\nSave this if your team is scoping an automation pilot.\n\nLink in bio.",
+      "firstComment": "Which function would you triage first in your organisation: claims, support tickets, or contracts?",
+      "hashtags": ["#AIinInsurance", "#InsurTech", "#AICaseStudy", "#Automation"],
+      "alt": "Carousel summarising an insurance AI case study: claims triage, 40% faster settlement, 30% straight-through processing.",
+      "cta": { "type": "save", "dm": "CASES", "path": "/case-studies/zurich-claims-ai" },
+      "story": "Slider sticker: How much of your team's work could be triaged by complexity? Link sticker to case studies.",
+      "sources": ["ai-hub/src/data/case-studies-data-insurance.ts (id: zurich-claims-ai)"],
+      "flag": "Use the entry's figures as 'reported'. Do not add any link to your employer or imply one; AI Hub content stays independent."
+    },
+    {
+      "id": "d06", "date": "2026-11-09", "time": "12:30", "phase": "2 Demonstrate", "pillar": "tools", "format": "carousel",
+      "title": "5 free templates",
+      "goal": "Lead magnet carousel: saves, shares, free account sign-ups",
+      "hook": "42 AI templates, free. Here are the 5 I'd open first.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "FREE TEMPLATES", "headline": "42 AI templates. 5 to open first.", "sub": "Fill-in workbooks, vendor-neutral." },
+        { "kind": "point", "headline": "1. AI Readiness Assessment", "body": "Where you stand on data, skills and infrastructure before you start." },
+        { "kind": "point", "headline": "2. Use Case Prioritization Matrix", "body": "Business value against feasibility, with a scoring rubric." },
+        { "kind": "point", "headline": "3. Vendor Evaluation Scorecard", "body": "Weighted criteria for choosing an AI vendor." },
+        { "kind": "point", "headline": "4. Pilot Project Charter", "body": "Scope, success criteria and go/no-go gates for a first deployment." },
+        { "kind": "point", "headline": "5. EU AI Act Compliance Checklist", "body": "A working checklist you can hand to legal and engineering." },
+        { "kind": "cta", "headline": "Free with an AI Hub account.", "body": "aihubswiss.org/consulting-toolkit", "button": "Link in bio" }
+      ],
+      "caption": "AI pilots go wrong fastest when scope, success criteria and ownership aren't written down.\n\nAI Hub has 42 fill-in Excel templates, vendor-neutral and free with an account. These are the five I'd open first, in order.\n\nSave it. Send it to the person who owns your AI roadmap.\n\nLink in bio.",
+      "firstComment": "Comment TEMPLATES and I'll send you the toolkit link.",
+      "hashtags": ["#AIStrategy", "#AIGovernance", "#AIReadiness", "#Consulting"],
+      "alt": "Carousel listing five free AI templates: readiness assessment, use case matrix, vendor scorecard, pilot charter and EU AI Act checklist.",
+      "cta": { "type": "save", "dm": "TEMPLATES", "path": "/consulting-toolkit" },
+      "story": "Poll: Which template do you need first? (Readiness / Vendor scorecard / Pilot charter / EU AI Act).",
+      "sources": ["ai-hub/private/templates/*.xlsx (42 files)", "ai-hub/src/app/llms.txt/route.ts (template descriptions)", "ai-hub/README.md (signed-in download)"],
+      "flag": "Confirm the 42 count and that downloads are still sign-in only (free) before posting."
+    },
+    {
+      "id": "d07", "date": "2026-11-10", "time": "18:30", "phase": "2 Demonstrate", "pillar": "tools", "format": "reel",
+      "title": "Reel: free Academy and verifiable certificate",
+      "goal": "Founder-voice reel; Academy sign-ups",
+      "hook": "I built a free AI course. The certificate can be verified by anyone.",
+      "reel": {
+        "length": "30s",
+        "beats": [
+          { "t": "0-3s", "visual": "Founder to camera, or Academy page full screen", "onscreen": "A free AI course with a certificate anyone can verify.", "vo": "I built a free AI course, and the certificate can be verified by anyone." },
+          { "t": "3-10s", "visual": "Screen recording: /academy course list", "onscreen": "Governance. Practitioners. Leadership.", "vo": "Three tracks: AI governance for everyday users, for the people running a governance programme, and AI leadership for those directing adoption." },
+          { "t": "10-18s", "visual": "Open a lesson, then the assessment screen", "onscreen": "Written. Time-limited. Graded on the server.", "vo": "Each ends in a written, time-limited assessment, graded on the server. No tick-box certificates." },
+          { "t": "18-25s", "visual": "Certificate page, then the /verify page", "onscreen": "Verify it yourself.", "vo": "The certificate has an ID. Anyone can check it is real." },
+          { "t": "25-30s", "visual": "Logo + URL", "onscreen": "aihubswiss.org/academy · free", "vo": "Free at aihubswiss.org/academy. Link in bio." }
+        ],
+        "audio": "Founder voiceover or to-camera. Original audio, burned-in captions.",
+        "cover": "Free. Verifiable."
+      },
+      "caption": "A certificate is only worth something if someone else can check it.\n\nAI Hub's Academy is free: courses on AI governance for users and for practitioners, plus AI leadership for people directing adoption. Each ends in a written, time-limited assessment graded on the server, and the certificate can be verified.\n\nIf you're an EU-facing team working on AI literacy, this is a place to start.\n\nLink in bio.",
+      "firstComment": "Which track would you take: governance for users, governance for practitioners, or leadership?",
+      "hashtags": ["#AILiteracy", "#AIGovernance", "#FreeCourse", "#AIAcademy"],
+      "alt": "Reel: walkthrough of AI Hub's free Academy and its verifiable Certificate of Completion.",
+      "cta": { "type": "follow", "dm": "ACADEMY", "path": "/academy" },
+      "story": "Quiz sticker from the AI Basics course, then link sticker to /academy/basics (no sign-up needed).",
+      "sources": ["ai-hub/src/app/academy/page.tsx", "ai-hub/src/app/llms.txt/route.ts (Academy description)", "ai-hub/src/app/verify/[certificateId]"],
+      "flag": "Record against the live Academy so course names match; confirm the certificate verify screen before filming."
+    },
+    {
+      "id": "d08", "date": "2026-11-11", "time": "12:30", "phase": "2 Demonstrate", "pillar": "tools", "format": "reel",
+      "title": "Reel: API vs self-hosted break-even",
+      "goal": "Builder audience; tool-demo reel",
+      "hook": "At what point does self-hosting an LLM beat paying per token?",
+      "reel": {
+        "length": "30s",
+        "beats": [
+          { "t": "0-3s", "visual": "Calculator page, number ticking", "onscreen": "Self-host or pay per token?", "vo": "At what point does self-hosting an LLM beat paying per token?" },
+          { "t": "3-12s", "visual": "Fill in workload: requests per day, input and output tokens", "onscreen": "Step 1: your workload", "vo": "Start with your workload: requests per day, and tokens in and out." },
+          { "t": "12-20s", "visual": "Fill in API price, then GPU cost, GPU count, throughput, utilisation, ops cost", "onscreen": "Step 2: both cost models", "vo": "Add your API price, then your GPU cost, throughput, utilisation, and the engineering time people forget." },
+          { "t": "20-27s", "visual": "Result: break-even view", "onscreen": "Your break-even point", "vo": "It shows where the lines cross for your numbers, not someone else's." },
+          { "t": "27-30s", "visual": "Logo + URL", "onscreen": "aihubswiss.org/tools/tco", "vo": "Free calculator. Link in bio." }
+        ],
+        "audio": "Voiceover, screen recording at 1.25x where typing. Captions burned in. Use placeholder inputs, and say so on screen.",
+        "cover": "API vs GPU"
+      },
+      "caption": "Most \"self-host vs API\" debates skip the boring part: your actual workload and the engineering time it takes to run GPUs.\n\nAI Hub's break-even calculator takes your requests per day, tokens, API pricing, GPU cost, throughput, utilisation and ops cost, and shows where the two models cross.\n\nThe numbers in the video are placeholders. Use your own quotes.\n\nSave it for your next build-vs-buy meeting.\n\nLink in bio.",
+      "firstComment": "What's your monthly token volume, roughly? Curious where most teams land.",
+      "hashtags": ["#LLM", "#MLOps", "#AIEngineering", "#GenerativeAI"],
+      "alt": "Reel: walkthrough of AI Hub's API versus self-hosted LLM break-even calculator.",
+      "cta": { "type": "save", "dm": "TCO", "path": "/tools/tco" },
+      "story": "Question sticker: What's your biggest LLM cost, tokens or ops time?",
+      "sources": ["ai-hub/src/components/practitioner/tco-calculator.tsx (input fields)", "ai-hub/src/app/tools/tco/page.tsx"],
+      "flag": "Do not state any specific break-even figure in the video; show the method with clearly labelled placeholder inputs."
+    },
+    {
+      "id": "d09", "date": "2026-11-12", "time": "18:30", "phase": "2 Demonstrate", "pillar": "governance", "format": "textcard",
+      "title": "Which rules apply to you (text card)",
+      "goal": "Relatable text card promoting the compliance gate matrix",
+      "hook": "Which AI rules apply to your company? It's a filter, not a research project.",
+      "slides": [
+        { "kind": "text", "headline": "Which AI regulations apply to your company? Try this:", "lines": ["Pick your industry.", "Pick your jurisdiction.", "Read the frameworks that match, with status and risk level.", "Honestly, it's embarrassing how easy that is."] }
+      ],
+      "caption": "Working out which AI rules apply to you shouldn't need a week of reading.\n\nAI Hub's compliance gate matrix filters 44 frameworks by industry, jurisdiction, legal status and risk level. It won't replace your counsel, but it tells you which documents to read first.\n\nSend this to whoever owns compliance on your AI projects.\n\nGeneral information, not legal advice.\n\nLink in bio.",
+      "firstComment": "Which jurisdiction matters most to you: EU, Switzerland, UK, US? I'll point you to the right framework page.",
+      "hashtags": ["#AICompliance", "#AIGovernance", "#EUAIAct", "#RegTech"],
+      "alt": "Text post: pick your industry, pick your jurisdiction, see which AI frameworks apply.",
+      "cta": { "type": "send", "dm": "GATE", "path": "/compliance/gate-matrix" },
+      "story": "Poll: Which jurisdiction do you operate in? (EU / Switzerland / UK / US).",
+      "sources": ["ai-hub/src/components/practitioner/gate-matrix.tsx (filters)", "ai-hub/src/data/site-counts.ts (frameworks: 44)"],
+      "flag": "Click through the filters yourself on the morning of posting so the description matches the live page."
+    },
+    {
+      "id": "d10", "date": "2026-11-13", "time": "12:30", "phase": "3 Convert", "pillar": "tools", "format": "reel",
+      "title": "Reel: AI Hub for AI assistants (MCP and markdown)",
+      "goal": "Builder differentiator; reach AI-native audience",
+      "hook": "Your AI assistant can read AI Hub directly. Here's how.",
+      "reel": {
+        "length": "28s",
+        "beats": [
+          { "t": "0-3s", "visual": "Chat window asking about an AI tool", "onscreen": "Your AI can read AI Hub.", "vo": "Your AI assistant can read AI Hub directly." },
+          { "t": "3-11s", "visual": "Browser: a tool page, then the same URL with .md appended", "onscreen": "Add .md to any page", "vo": "Add dot m d to a tool, company, case study or framework page and you get clean markdown." },
+          { "t": "11-20s", "visual": "Show /llms.txt, then the MCP endpoint listing: search, get_tool, get_company, get_case_study, get_compliance_framework", "onscreen": "Read-only MCP server", "vo": "There's also a read-only MCP server with search and lookups for tools, companies, case studies and frameworks." },
+          { "t": "20-25s", "visual": "Assistant answering with a cited AI Hub page", "onscreen": "Sourced answers", "vo": "So your assistant answers from a maintained reference, not a guess." },
+          { "t": "25-28s", "visual": "Logo + URL", "onscreen": "aihubswiss.org/llms.txt", "vo": "Details at aihubswiss.org slash llms dot txt." }
+        ],
+        "audio": "Voiceover, captions burned in. Show the real endpoint output; do not mock a response.",
+        "cover": "Plug in the Hub"
+      },
+      "caption": "An AI assistant's answer about tools and regulation can lag behind what has changed.\n\nAI Hub publishes a machine-readable layer: markdown versions of every tool, company, case study and framework page (add .md to the URL), an llms.txt index, and a read-only MCP server with search and lookup tools.\n\nBuilders: point your assistant at it and get answers from a maintained source.\n\nDetails: aihubswiss.org/llms.txt. Link in bio.",
+      "firstComment": "Comment MCP and I'll send the endpoint and the tool list.",
+      "hashtags": ["#MCP", "#LLM", "#AIEngineering", "#AIAgents"],
+      "alt": "Reel: how AI assistants can read AI Hub through markdown pages and a read-only MCP server.",
+      "cta": { "type": "send", "dm": "MCP", "path": "/llms.txt" },
+      "story": "Poll: Do you connect your AI assistant to external references? (Yes / Not yet / What's MCP?).",
+      "sources": ["ai-hub/src/app/llms.txt/route.ts (Machine-readable access section)"],
+      "flag": "Run the .md and MCP steps live before filming to confirm they work on production."
+    },
+    {
+      "id": "d11", "date": "2026-11-14", "time": "10:00", "phase": "3 Convert", "pillar": "brand", "format": "carousel",
+      "title": "We published nothing on 31 October",
+      "goal": "Trust and independence story; shares and follows",
+      "hook": "We published nothing on 31 October. On purpose.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "HOW AI HUB WORKS", "headline": "We published nothing on 31 October. On purpose.", "sub": "The two-source rule." },
+        { "kind": "point", "headline": "The run.", "body": "Our daily update searched regulation, models and tools, and funding for 29 to 31 October 2026." },
+        { "kind": "point", "headline": "The result.", "body": "Nothing cleared two independent sources in that window. So nothing was added." },
+        { "kind": "point", "headline": "The rule.", "body": "Two named sources for every claim. Never fabricate." },
+        { "kind": "point", "headline": "The caveat.", "body": "That's not the same as nothing happening. The log says so." },
+        { "kind": "point", "headline": "Why it matters.", "body": "A reference is only useful if you can trust what's on it. A gap beats a guess." },
+        { "kind": "cta", "headline": "Read the daily update log.", "body": "Independent. Hand-verified.", "button": "aihubswiss.org" }
+      ],
+      "caption": "A feed that has to post every day will eventually post something unverified.\n\nOn 31 October, our daily update searched regulation, models and tools, and funding, and found nothing dated 29 to 31 October that was backed by two independent sources. So we added nothing, and the log says exactly that.\n\nThat's the rule: two named sources for every claim, never fabricate. A gap in a reference is better than a guess.\n\nIf you want an AI reference that behaves like this, follow along.\n\nLink in bio.",
+      "firstComment": "Would you rather see a daily post, or a daily post only when it's verified?",
+      "hashtags": ["#AIGovernance", "#TrustworthyAI", "#AILiteracy", "#Transparency"],
+      "alt": "Carousel explaining why AI Hub published no updates on 31 October 2026: nothing met the two-source rule.",
+      "cta": { "type": "share", "dm": "TRUST", "path": "/about" },
+      "story": "Behind-the-scenes: screenshot of the daily update banner. Poll: Verified-only or daily-regardless?",
+      "sources": ["ai-hub/src/data/daily-updates.json (date 2026-10-31)", "ai-hub/README.md (never fabricate, two-source rule)"],
+      "flag": "daily-updates.json changes daily. If a newer entry exists, keep this post's 31 October wording exactly as the log states it."
+    },
+    {
+      "id": "d12", "date": "2026-11-15", "time": "18:00", "phase": "3 Convert", "pillar": "brand", "format": "carousel",
+      "title": "Which AI path are you?",
+      "goal": "Interactive, shareable self-segmentation; sends and comments",
+      "hook": "Four people. Four ways into AI Hub. Which one are you?",
+      "slides": [
+        { "kind": "cover", "eyebrow": "PICK YOUR PATH", "headline": "Which AI path are you?", "sub": "Four starting points. One reference." },
+        { "kind": "point", "headline": "Curious beginner.", "body": "Plain-English explainers, starter resources, a free AI Basics course with no sign-up.", "tag": "/academy/basics" },
+        { "kind": "point", "headline": "Builder or practitioner.", "body": "Tool comparisons, APIs, code tutorials, the API vs self-hosted calculator.", "tag": "/tools" },
+        { "kind": "point", "headline": "Manager or decision-maker.", "body": "Case studies with measured outcomes, vendor comparisons, implementation playbooks.", "tag": "/case-studies" },
+        { "kind": "point", "headline": "Executive.", "body": "Governance, risk, regulatory compliance, strategic frameworks.", "tag": "/compliance" },
+        { "kind": "cta", "headline": "Comment 1, 2, 3 or 4.", "body": "I'll send your starting link.", "button": "Link in bio" }
+      ],
+      "caption": "Four people open AI Hub on the same morning and need four different things.\n\n1. Curious beginner: start with the free AI Basics course, no sign-up.\n2. Builder: tools, APIs, tutorials and the break-even calculator.\n3. Manager: case studies, vendor comparisons, playbooks.\n4. Executive: governance, risk and compliance.\n\nComment 1, 2, 3 or 4 and I'll send you the right starting page.\n\nTag the colleague who's number 4 and doesn't know it yet.\n\nLink in bio.",
+      "firstComment": "1, 2, 3 or 4? And which one is your boss?",
+      "hashtags": ["#AILiteracy", "#AIStrategy", "#AITools", "#AIGovernance"],
+      "alt": "Carousel: four starting paths into AI Hub for beginners, builders, managers and executives.",
+      "cta": { "type": "comment", "dm": "1/2/3/4", "path": "/" },
+      "story": "Poll with four options (1-4) and link sticker. Reshare best replies.",
+      "sources": ["ai-hub/src/components/home/persona-selector.tsx", "ai-hub/src/app/academy/basics/page.tsx"]
+    },
+    {
+      "id": "d13", "date": "2026-11-16", "time": "12:30", "phase": "3 Convert", "pillar": "brand", "format": "carousel",
+      "title": "The community",
+      "goal": "Free network applications",
+      "hook": "A free AI community with working groups, not a mailing list.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "AI HUB SWISS · COMMUNITY", "headline": "A free AI community with working groups.", "sub": "Not a mailing list." },
+        { "kind": "point", "headline": "Who it's for.", "body": "AI researchers, engineers, entrepreneurs and policymakers." },
+        { "kind": "list", "headline": "Four working groups", "items": ["AI Governance & the EU AI Act", "Frontier Research", "Enterprise Adoption", "AI Literacy & Talent"] },
+        { "kind": "point", "headline": "What happens in them.", "body": "Roundtables and workshops. Working sessions on real artefacts, like a risk assessment, using the toolkit playbooks." },
+        { "kind": "point", "headline": "What it costs.", "body": "Nothing. No paid tiers. Every application is reviewed by a person." },
+        { "kind": "cta", "headline": "Apply for free membership.", "body": "aihubswiss.org/switzerland/join", "button": "Link in bio" }
+      ],
+      "caption": "A chat group with thousands of people and no agenda isn't a community.\n\nAI Hub Swiss is a free practitioner community built around four working groups: AI governance and the EU AI Act, frontier research, enterprise adoption, and AI literacy and talent. Roundtables, workshops and working sessions on real artefacts.\n\nNo fee, no paid tiers. Every application is reviewed by a person.\n\nApply at the link in bio.",
+      "firstComment": "Which working group would you join first?",
+      "hashtags": ["#AICommunity", "#AIGovernance", "#Switzerland", "#ResponsibleAI"],
+      "alt": "Carousel introducing the free AI Hub Swiss community and its four working groups.",
+      "cta": { "type": "link", "dm": "JOIN", "path": "/switzerland/join" },
+      "story": "Poll: Which working group? Link sticker to join page.",
+      "sources": ["ai-hub/src/app/switzerland/network/page.tsx", "ai-hub/src/app/switzerland/join/page.tsx"]
+    },
+    {
+      "id": "d14", "date": "2026-11-17", "time": "12:30", "phase": "3 Convert", "pillar": "brand", "format": "carousel",
+      "title": "Recap: 5 places to start",
+      "goal": "Recap and conversion; saves",
+      "hook": "Two weeks, one reference layer. Five places to start.",
+      "slides": [
+        { "kind": "cover", "eyebrow": "RECAP · 14 DAYS", "headline": "One reference layer. Five places to start.", "sub": "Save this one." },
+        { "kind": "point", "headline": "1. Compare AI tools", "body": "151 tools, 357 side-by-side comparisons.", "tag": "/tools" },
+        { "kind": "point", "headline": "2. Read the EU AI Act guide", "body": "Risk tiers, fines and the current timeline.", "tag": "/compliance" },
+        { "kind": "point", "headline": "3. Take the free Academy", "body": "Governance and leadership courses. Verifiable certificate.", "tag": "/academy" },
+        { "kind": "point", "headline": "4. Download a template", "body": "42 fill-in workbooks. Free with an account.", "tag": "/consulting-toolkit" },
+        { "kind": "point", "headline": "5. Join the community", "body": "Four working groups. Free. Reviewed by a person.", "tag": "/switzerland/join" },
+        { "kind": "cta", "headline": "Independent. Free. Updated daily.", "body": "aihubswiss.org", "button": "Link in bio" }
+      ],
+      "caption": "Two weeks of posts, one page to keep.\n\nIf you save one thing from this campaign, save this: five places to start on AI Hub.\n\n1. Compare AI tools\n2. Read the EU AI Act guide\n3. Take the free Academy\n4. Download a template\n5. Join the community\n\nIndependent, free, updated daily. What should we build or cover next? Tell me in the comments.\n\nLink in bio.",
+      "firstComment": "What's missing from AI Hub that you'd use every week? Best answers shape the next update.",
+      "hashtags": ["#AIGovernance", "#AITools", "#AILiteracy", "#ResponsibleAI"],
+      "alt": "Recap carousel: five places to start on AI Hub, from tool comparisons to the free community.",
+      "cta": { "type": "save", "dm": "HUB", "path": "/" },
+      "story": "Highlight reel of the 14 days. Question sticker: What should AI Hub cover next?",
+      "sources": ["ai-hub/src/data/site-counts.ts"]
+    }
+  ]
+}

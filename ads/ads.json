@@ -1,0 +1,239 @@
+{
+  "campaign": "AIHub | Instagram+Facebook | hub-nov26 | Traffic",
+  "objective": "OUTCOME_TRAFFIC",
+  "budget_daily": 10,
+  "budget_note": "Account-currency units. Currency not confirmed. Default chosen because no preference was given; change before activating.",
+  "status_on_create": "PAUSED",
+  "locations": "worldwide (as requested)",
+  "dsa_beneficiary": "AIHub Swiss (confirm legal name)",
+  "page": "AI Hub Page not yet on ad account; only BRS Switzerland today",
+  "image_base_url": "https://sridharswiss.github.io/aihub-marketing/assets-ads/",
+  "ads": [
+    {
+      "id": "A1",
+      "post": "d01",
+      "start": "2026-11-04",
+      "stop": "2026-11-10",
+      "name": "AIHub | D01 Launch | Carousel",
+      "landing": "/",
+      "url_tags": "utm_source=meta&utm_medium=paid_social&utm_campaign=hub-nov26&utm_content=ad-d01-launch",
+      "call_to_action": "LEARN_MORE",
+      "primary_text": "Independent AI reference: 151 tools, 103 companies, 44 governance frameworks. Free, hand-verified, updated daily.",
+      "cards": [
+        {
+          "headline": "Everything about AI, one place",
+          "description": "Free. Independent.",
+          "image": "d01/d01-01.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "151 AI tools compared",
+          "description": "Pricing and specs",
+          "image": "d01/d01-02.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "103 companies profiled",
+          "description": "Funding, products",
+          "image": "d01/d01-03.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "86 case studies",
+          "description": "Measured outcomes",
+          "image": "d01/d01-04.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "44 governance frameworks",
+          "description": "29 jurisdictions",
+          "image": "d01/d01-05.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "A free AI Academy",
+          "description": "Verified certificate",
+          "image": "d01/d01-06.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "Independent by design",
+          "description": "Two sources a claim",
+          "image": "d01/d01-07.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        },
+        {
+          "headline": "Open AI Hub",
+          "description": "Free",
+          "image": "d01/d01-08.png",
+          "landing_page_url": "https://aihubswiss.org/"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "post": "d04",
+      "start": "2026-11-07",
+      "stop": "2026-11-13",
+      "name": "AIHub | D04 EU AI Act | Carousel",
+      "landing": "/compliance/eu-ai-act",
+      "url_tags": "utm_source=meta&utm_medium=paid_social&utm_campaign=hub-nov26&utm_content=ad-d04-euaiact",
+      "call_to_action": "LEARN_MORE",
+      "primary_text": "The EU AI Act dates moved. Risk tiers, fines up to 7% of turnover and the current timeline. General information, not legal advice.",
+      "cards": [
+        {
+          "headline": "The EU AI Act in 6 swipes",
+          "description": "Updated timeline",
+          "image": "d04/d04-01.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "It sorts AI by risk",
+          "description": "Four tiers",
+          "image": "d04/d04-02.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "The four tiers",
+          "description": "Obligations by tier",
+          "image": "d04/d04-03.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "Fines up to 7% of turnover",
+          "description": "Or EUR 35M",
+          "image": "d04/d04-04.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "The dates, as of today",
+          "description": "Digital Omnibus",
+          "image": "d04/d04-05.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "Next date: 2 Dec 2026",
+          "description": "Two new bans",
+          "image": "d04/d04-06.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "Who it covers",
+          "description": "Incl. non-EU firms",
+          "image": "d04/d04-07.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        },
+        {
+          "headline": "Read the full guide",
+          "description": "Free",
+          "image": "d04/d04-08.png",
+          "landing_page_url": "https://aihubswiss.org/compliance/eu-ai-act"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "post": "d06",
+      "start": "2026-11-09",
+      "stop": "2026-11-15",
+      "name": "AIHub | D06 Templates | Carousel",
+      "landing": "/consulting-toolkit",
+      "url_tags": "utm_source=meta&utm_medium=paid_social&utm_campaign=hub-nov26&utm_content=ad-d06-templates",
+      "call_to_action": "LEARN_MORE",
+      "primary_text": "42 fill-in AI templates: readiness, use case matrix, vendor scorecard, pilot charter, EU AI Act checklist. Free with an account.",
+      "cards": [
+        {
+          "headline": "42 AI templates, free",
+          "description": "Vendor-neutral",
+          "image": "d06/d06-01.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "AI Readiness Assessment",
+          "description": "Data, skills, infra",
+          "image": "d06/d06-02.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "Use Case Prioritization",
+          "description": "Value vs feasibility",
+          "image": "d06/d06-03.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "Vendor Evaluation Scorecard",
+          "description": "Weighted criteria",
+          "image": "d06/d06-04.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "Pilot Project Charter",
+          "description": "Scope and go/no-go",
+          "image": "d06/d06-05.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "EU AI Act Checklist",
+          "description": "Working checklist",
+          "image": "d06/d06-06.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        },
+        {
+          "headline": "Free with an account",
+          "description": "Get the toolkit",
+          "image": "d06/d06-07.png",
+          "landing_page_url": "https://aihubswiss.org/consulting-toolkit"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "post": "d13",
+      "start": "2026-11-16",
+      "stop": "2026-11-22",
+      "name": "AIHub | D13 Community | Carousel",
+      "landing": "/switzerland/join",
+      "url_tags": "utm_source=meta&utm_medium=paid_social&utm_campaign=hub-nov26&utm_content=ad-d13-community",
+      "call_to_action": "LEARN_MORE",
+      "primary_text": "A free AI community with four working groups: governance, research, adoption and literacy. Every application is reviewed by a person.",
+      "cards": [
+        {
+          "headline": "A free AI community",
+          "description": "Not a mailing list",
+          "image": "d13/d13-01.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        },
+        {
+          "headline": "Who it is for",
+          "description": "Research to policy",
+          "image": "d13/d13-02.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        },
+        {
+          "headline": "Four working groups",
+          "description": "Governance to talent",
+          "image": "d13/d13-03.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        },
+        {
+          "headline": "Roundtables and workshops",
+          "description": "Real artefacts",
+          "image": "d13/d13-04.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        },
+        {
+          "headline": "Free. Reviewed by a person.",
+          "description": "No paid tiers",
+          "image": "d13/d13-05.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        },
+        {
+          "headline": "Apply for membership",
+          "description": "Free",
+          "image": "d13/d13-06.png",
+          "landing_page_url": "https://aihubswiss.org/switzerland/join"
+        }
+      ]
+    }
+  ]
+}
