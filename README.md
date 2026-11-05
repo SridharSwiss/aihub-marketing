@@ -56,3 +56,7 @@ Counts come from `ai-hub/src/data/site-counts.ts` as of 3 Nov 2026 (151 tools, 1
 - `ai-hub/src/app/llms.txt/route.ts` still says EU AI Act high-risk obligations apply from August 2026, while `compliance.ts` says Annex III high-risk was deferred to December 2027 by the Digital Omnibus. The campaign follows `compliance.ts`.
 - The root `README.md` describes an earlier Vite version (80+ tools, 15 categories). The live site is the Next.js app in `ai-hub/`.
 - `ai-hub/README.md` says the news feed revalidates every 24 hours; `llms.txt` says every 6 hours. Posts say "58 sources" and avoid stating a refresh interval.
+
+## Keeping copies in sync
+
+GitHub (`SridharSwiss/aihub-marketing`, branch `main`) is the single source of truth. Every working copy (your PC, Claude's session) runs `sync.cmd` on Windows or `./sync.sh` elsewhere before and after editing. It pulls, commits local edits and pushes. Content is edited in `content/posts.json` only; the briefs, calendar and PNGs are regenerated from it, so never hand-edit generated files.
